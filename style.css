@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-container{
+    color: white;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.logo>img{
+    width: 120px;
+    
+}
+ul{
+    display: flex ;
+    margin-right: 30px;
+    margin-top: 5px;
+}
+.nav-link{
+    text-decoration: none;
+    list-style: none;
+    font-size: 16px;
+    margin-top: 25px;
+    padding-left: 15px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.nav-button{
+   list-style-type: none;
+   margin: 20px;
+   padding: 5px 15px;
+   border: 1px solid gray;
+   border-radius: 5px;
+   cursor: pointer;
+}
+.nav-button:hover{
+    background-color: #4d4d4d;
+}
+
+.slider-main{
+         color: white;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         flex-direction: column;
+                   
+        }
+.slider-head1{
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    line-height: 35px;
+    
+}
+.slider-head2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 35px;
+      
+}
+
+.slider-head3>button{
+    font-family: "Times New Roman", Times, serif;
+    background-color: red;
+    color: white;
+    margin-top: 20px;
+    padding: 5px 15px;
+    font-size: 20px;
+    border-radius: 7px;
+}
+
+
+.card-parent{
+    display: flex;
+    justify-content: center;
+    
+}
+.card-child{
+    width: 300px;
+    background-color: #e1ebf3;
+    color: black;
+    width: 300px;
+    height: 250px;
+    margin-right: 35px;
+    margin-bottom: 35px;
+    margin-top: -75px;
+    padding: 25px 25px;
+  
+    
+}
+.card-heading{
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.card-content{
+    text-align: left;
+    font-weight: normal;
+    font-size: 16px;
+    
+}
+.card-link{
+    margin-top: 50px;
+    font-size: 14px;
+    color: grey;
+
+
+}
+.anchor-link{
+    color: grey;
+    text-decoration: none;
+}
+.anchor-link:hover {
+    color: blue;
+    }
+
+.container{
+    margin-left: 150px;
+    margin-right: 100px;
+
+    
+}
+.web-main{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: ce; */
+    /* background-color:#f8d7da ; */
+    padding-right: 50px;
+    margin-top: 20px;
+    
+}
+.web-container{
+    padding-right: 150px;
+    margin-top: 20px;
+}
+.web-heading{
+    margin-bottom: 10px;
+    line-height: 80px;
+    font-size: 40px;
+    font-variant:small-caps;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.web-content{
+    text-align: left;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    
+}
+.web-container2{
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.web-anchor2{
+    line-height: 50px;
+}
