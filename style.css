@@ -212,9 +212,25 @@ ul {
 }
 .portion1-child2{
     display: flex;
+    justify-content: space-between;
     
 }
 
 .portion1-gchild1{
-    max-width: 800px;
+    width: 45%;
+}
+.portion1-gchild2{
+    width: 40%;
+}
+
+.port1-semi-heading{
+    font-size: 18px;
+    font-weight: bolder;
+    margin-left: 10px;
+    font-family: var(--heading);
+}
+.port1-semi-content{
+    font-size: 16px;
+    margin-left: 30px;
+    font-family: var(--content);
 }
