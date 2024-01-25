@@ -121,13 +121,14 @@ ul {
 .card-heading {
     margin-bottom: 10px;
     font-size: 30px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: var(--heading);
 }
 
 .card-content {
     text-align: left;
     font-weight: normal;
     font-size: 16px;
+    font-family: var(--content);
 
 }
 
@@ -277,6 +278,87 @@ ul {
     font-size: 20px;
     border-radius: 7px;
     cursor: pointer;
+    
+
+}
+.portion3{
+    margin: 50px 150px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.portion3-child1{
+    width: 70%;
+    
+}
+.portion3-heading{
+    font-size: 30px;
+
+}
+.portion3-link{
+    color: var(--Primary);
+}
+.portion4{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 150px;
+
+}
+.portion4-child{
+    /* width: 300px; */
+    background-color: var(--white);
+    color: var(--dark);
+    width: 300px;
+    height: 250px;
+    margin-right: 35px;
+    margin-bottom: 35px;
+    padding: 25px 25px;
+    box-shadow: var(--shadow);
+    border-radius: 5px;
+}
+.port5{
+    display: flex;
+    margin: 50px 150px;
+    justify-content: space-between;
+}
+.port5-child{
+    width: 300px;
+    background-color: var(--white);
+    color: grey;
+    box-shadow: var(--shadow);
+    padding: 15px 25px;
+    margin-top: -100px;
+    height: 50px;
+    /* margin-left: -20px; */
+    margin-right: 35px;
+
+}
+
+.port5-link{
+    color: grey;
+}
+.port5-link:hover{
+    color: var(--Primary);
+}
+.portion6{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 100px;
+}
+.port6-child{
+    width: 625px;
+    text-align: justify;
+    margin-bottom: 30px;
+    
+}
+.port6-heading{
+     font-size: 30px;
+     font-family: var(--heading);
+}
+.port6-content{
+    font-family: var(--content);
     
 
 }
