@@ -12,8 +12,8 @@
     --white: #FFFFFF;
     --shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.2);
     --heading: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    --content: Arial, Helvetica, sans-serif ;
-        
+    --content: Arial, Helvetica, sans-serif;
+
 }
 
 .main-container {
@@ -86,7 +86,7 @@ ul {
 }
 
 .slider-head3>button {
-    font-family: "Times New Roman", Times, serif;
+    font-family: var(--heading);
     background-color: red;
     color: var(--white);
     margin-top: 20px;
@@ -147,90 +147,136 @@ ul {
 .anchor-link:hover {
     color: blue;
 }
-.container{
-  display: flex;
-  flex-direction: column;
-  margin: 50px 150px;
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 150px;
 
 }
 
-.web-main{
+.web-main {
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin-bottom: 70px;
 }
-.web-container{
+
+.web-container {
     width: 50%;
 
-    
+
 
 }
 
-.web-heading{
+.web-heading {
     font-family: var(--heading);
     font-size: 35px;
     line-height: 1.2;
-    margin-bottom: 30px;   
+    margin-bottom: 30px;
 }
-.web-content{
+
+.web-content {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     line-height: 1.5;
 }
-.web-link{
+
+.web-link {
     margin-top: 20px;
 }
-.web-anchor{
+
+.web-anchor {
     color: var(--Primary);
 }
 
-.portion1{
+.portion1 {
     display: flex;
     flex-direction: column;
     margin: 50px 150px;
 }
 
-.portion1-child1{
+.portion1-child1 {
     display: flex;
     flex-wrap: wrap;
     gap: 40px;
     margin-bottom: 60px;
-    
+
 }
-.port1-heading{
+
+.port1-heading {
     font-size: 50px;
     margin-top: 10px;
     font-family: var(--heading);
 }
-.port1-content{
+
+.port1-content {
     width: 60%;
     font-size: 20px;
     font-family: var(--content);
 
 
 }
-.portion1-child2{
+
+.portion1-child2 {
     display: flex;
     justify-content: space-between;
-    
+
 }
 
-.portion1-gchild1{
+.portion1-gchild1 {
     width: 45%;
 }
-.portion1-gchild2{
+
+.portion1-gchild2 {
     width: 40%;
 }
 
-.port1-semi-heading{
+.port1-semi-heading {
     font-size: 18px;
     font-weight: bolder;
     margin-left: 10px;
     font-family: var(--heading);
 }
-.port1-semi-content{
+
+.port1-semi-content {
     font-size: 16px;
     margin-left: 30px;
     font-family: var(--content);
+}
+
+.portion2 {
+    width: 1050px;
+    height: 250px;
+    background-image: url(./pic/ribbon.jpg);
+    margin: 50px 150px;
+    display: flex;
+    /* padding: 50px; */
+    align-items: center;
+    justify-content: space-around;
+}
+.portion2-child1{
+    color: var(--white);
+    width: 50%;
+}
+.port2-heading{
+    margin-bottom: 20px;
+    font-family: var(--heading);
+    font-size: 30px;
+    /* margin-top: 30px; */
+}
+.port2-content{
+    font-family: var(--content);
+}
+.port2-button{
+    font-family: var(--heading);
+    background-color: red;
+    color: var(--white);
+    margin-top:  -30px;
+    padding: 5px 15px;
+    font-size: 20px;
+    border-radius: 7px;
+    cursor: pointer;
+    
+
 }
